@@ -8,7 +8,7 @@ steps:
   - label: ":ski: missing bash"
     commands: 
       - "./src/show_environment.sh"
-      - "RUN apk add --no-cache bash"
+      - "docker pull bash"
     plugins:
       - docker#v3.5.0:
           image: "alpine:latest"
