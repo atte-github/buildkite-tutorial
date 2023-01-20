@@ -1,7 +1,7 @@
 steps:
  - block: "Release"
    prompt: "Fill out the details for release"
-     fields:
-       - text: "Release Name"
-         key: "release-name"
+   fields:
+     - text: "Release Name"
+       key: "release-name"
 
