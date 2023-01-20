@@ -9,8 +9,8 @@ steps:
   
   - label: ":ski: missing bash"
     commands: 
-      - "./src/show_environment.sh"
-      - "docker pull bash"
+      - /src/show_environment.sh
+     
     plugins:
       - docker#v3.5.0:
           image: "alpine:latest"
