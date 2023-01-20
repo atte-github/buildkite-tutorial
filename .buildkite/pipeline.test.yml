@@ -4,4 +4,7 @@ steps:
    fields:
      - text: "Release Name"
        key: "release-name"
+       hint: "What's the code name for this release? :name_badge:"
+       required: false
+       default: "Release #"
 
