@@ -6,7 +6,9 @@ steps:
           image: "ubuntu:latest"
           propagate-environment: true
   - label: ":ski: missing bash"
-    command: ./src/show_environment.sh
+    commands: 
+      - "./src/show_environment.sh"
+      - "RUN apk add --no-cache bash"
     plugins:
       - docker#v3.5.0:
           image: "alpine:latest"
