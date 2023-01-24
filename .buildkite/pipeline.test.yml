@@ -1,3 +1,4 @@
+steps:
  - block: "Release"
    prompt: "Fill out the details for release"
      fields:
