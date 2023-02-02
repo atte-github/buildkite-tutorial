@@ -1,3 +1,6 @@
 steps:
-- label: ":desktop_computer:"
-  command: ./src/sample3.sh
+  - label: ":desktop_computer:"
+    command: ./src/show-environment.sh
+    notify:
+        - github_commit_status:
+            context: "my-custom-status"
