@@ -10,7 +10,7 @@ steps:
          steps:
              notify:
                 - github_commit_status:
-                    context: "my-status-for-soft-fadfdfil"
+                    context: "my-status-for-soft-dssdsdfadfdfil"
       YAML
       fi
  
