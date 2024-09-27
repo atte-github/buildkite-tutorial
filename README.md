@@ -6,6 +6,7 @@ hello This repo contains various Buildkite pipelines for a tutorial (soon to be 
 try pr without pr checkbox and master-new selected
 Click the following button to start [the tutorial](https://github.com/starkandwayne/buildkite-tutorial) on your [free Buildkite account](https://buildkite.com/pricing):
 
+test pr
 [![Start tutorial on Buildkite](https://buildkite.com/button.svg)](https://buildkite.com/new)
 
 Initially you do not need to fork this repo.
